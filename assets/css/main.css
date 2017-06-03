@@ -3,6 +3,7 @@
 	text-decoration: none;
 	padding: 0;
 	margin: 0;
+	list-style: none;
 }
 
 nav#menuprincipal {
@@ -49,3 +50,32 @@ video{
     top: 50%;
     background-position: 50%;
 }
+
+/*Footer*/ 
+
+img.pages {
+    max-width: 135px;
+    display: block;
+    margin-top: 24px;
+}
+
+#services{
+	background-color: #333447;
+	text-align: left;
+	font-size: 19px;
+	color: #fff;
+	padding: 70px;
+}
+
+#services.flex-container{
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.box-services{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+ul li a{
+	color: white;
+}   
