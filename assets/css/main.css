@@ -52,6 +52,9 @@ video{
 }
 
 /*Footer*/ 
+footer{
+	height: 380px;
+}
 
 img.pages {
     max-width: 135px;
@@ -64,12 +67,13 @@ img.pages {
 	text-align: left;
 	font-size: 19px;
 	color: #fff;
-	padding: 70px;
+	padding: 12px;
 }
 
 #services.flex-container{
 	justify-content: space-around;
 	flex-wrap: wrap;
+	margin-top: -4px;
 }
 
 .box-services{
@@ -78,4 +82,42 @@ img.pages {
 }
 ul li a{
 	color: white;
-}   
+}
+
+a.bold {
+    font-weight: 800;
+    letter-spacing: 3px;
+    line-height: 1.6;
+}
+
+.box{
+	height: 300px;
+}
+.other {
+    background-color: #333447;
+    text-align: center;
+    padding: 29px;
+    color: white;
+    line-height: 40px;
+}
+
+i.fa {
+    color: white;
+    font-size: 23px;
+    letter-spacing: 13px;
+}
+
+#circle { 
+	width: 28px;
+    height: 28px;
+    border-radius: 50px;
+    border: 1px white solid;
+    display: inline-block;
+    padding: 9px;
+    margin-bottom: 9px;
+}
+ 
+hr {
+    width: 290px;
+    margin: 0 auto;
+}
