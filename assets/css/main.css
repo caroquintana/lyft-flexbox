@@ -7,7 +7,7 @@
 }
 
 nav#menuprincipal {
-    position: fixed;
+	position: fixed;
 }
 
 .flex-container{
@@ -43,10 +43,10 @@ nav#menuprincipal {
 video{
 	min-height: 100%;
 	height: auto;
-    width: auto;
-    max-width: 100%;
-    top: 50%;
-    background-position: 50%;
+	width: auto;
+	max-width: 100%;
+	top: 50%;
+	background-position: 50%;
 }
 
 /*Footer*/ 
@@ -55,9 +55,9 @@ footer{
 }
 
 img.pages {
-    max-width: 135px;
-    display: block;
-    margin-top: 24px;
+	max-width: 135px;
+	display: block;
+	margin-top: 24px;
 }
 
 #services{
@@ -84,9 +84,9 @@ ul li a{
 }
 
 a.bold {
-    font-weight: 800;
-    letter-spacing: 3px;
-    line-height: 1.6;
+	font-weight: 800;
+	letter-spacing: 3px;
+	line-height: 1.6;
 }
 
 .box{
