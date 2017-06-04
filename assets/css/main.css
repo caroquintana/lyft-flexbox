@@ -11,6 +11,8 @@ nav#menuprincipal {
 	position: fixed;
 	z-index: 1000;
 	width: 100%;
+	display: none;
+	
 }
 
 .flex-container{
@@ -40,7 +42,7 @@ nav#menuprincipal {
 .textmenu{
 	justify-content: flex-end;
 	align-items: center;
-	padding-left: 680px;
+	padding-left: 634px;
 }
 
 .menunav1{
@@ -65,13 +67,22 @@ a:hover, .dropdown:hover, .dropbtn:hover{
 	color: #FF00BF;
 	cursor: pointer;
 }
-/*
-.ghost{
+
+/*Nav Ghost*/
+nav#menuprincipalg {
+	position: fixed;
+	z-index: 1000;
 	width: 100%;
-	margin-top: 0;
-	height: 90px;
-	background-color: blue;
-}*/
+	height: 64px;
+	background-color:white;
+}
+
+.menunavg{
+	border: 1px solid grey;
+	padding: 8px 9px;
+	border-radius: 12px;
+	color: grey;
+}
 
 /*First Section*/
 video{
