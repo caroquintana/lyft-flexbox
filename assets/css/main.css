@@ -94,11 +94,11 @@ a.bold {
 }
 
 .other {
-    background-color: #333447;
-    text-align: center;
-    padding: 29px;
-    color: white;
-    line-height: 40px;
+	background-color: #333447;
+	text-align: center;
+	padding: 29px;
+	color: white;
+	line-height: 40px;
 }
 
 i.fa {
