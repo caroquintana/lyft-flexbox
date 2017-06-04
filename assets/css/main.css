@@ -9,6 +9,8 @@
 /*Nav*/
 nav#menuprincipal {
 	position: fixed;
+	z-index: 1000;
+	width: 100%;
 }
 
 .flex-container{
@@ -18,7 +20,7 @@ nav#menuprincipal {
 #menu.flex-container{
 	justify-content: flex-end;
 	align-items: center;
-	margin-top: 14px;
+	margin-top: 0px;
 }
 
 #menu img{
@@ -26,9 +28,10 @@ nav#menuprincipal {
 	margin-right: auto;
 	margin-left: 20px;
 	background-color: transparent;
+	z-index: 1000;
 }
 
-#menu a{
+#menu ul li{
 	display: inline-block;
 	padding: 20px;
 	color: #fff;
@@ -38,6 +41,29 @@ nav#menuprincipal {
 	justify-content: flex-end;
 	align-items: center;
 	padding-left: 680px;
+}
+
+.menunav1{
+	border: 1px solid white;
+	padding: 8px 9px;
+	border-radius: 12px;
+}
+
+.menunav2{
+	color: #FF00BF;
+	border: 1px solid #FF00BF;
+	padding: 8px 9px;
+	border-radius: 12px;
+}
+
+a.menunav:hover, .dropdown:hover, .dropbtn:hover{
+	color: #FF00BF;
+	cursor: pointer;
+}
+
+a:hover, .dropdown:hover, .dropbtn:hover{
+	color: #FF00BF;
+	cursor: pointer;
 }
 
 /*First Section*/
