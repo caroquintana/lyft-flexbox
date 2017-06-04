@@ -7,13 +7,7 @@
 }
 
 /*Nav*/
-nav#menuprincipal {
-	position: fixed;
-	z-index: 1000;
-	width: 100%;
-	display: none;
-	
-}
+
 
 .flex-container{
 	display : flex;
@@ -71,10 +65,9 @@ a:hover, .dropdown:hover, .dropbtn:hover{
 /*Nav Ghost*/
 nav#menuprincipalg {
 	position: fixed;
-	z-index: 1000;
+	z-index: 990;
 	width: 100%;
 	height: 64px;
-	background-color:white;
 }
 
 .menunavg{
@@ -84,6 +77,12 @@ nav#menuprincipalg {
 	color: grey;
 }
 
+.sinbg {
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+	background-color:white;
+}
 /*First Section*/
 video{
 	min-height: 100%;
