@@ -32,14 +32,12 @@ nav#menuprincipal {
 	padding: 20px;
 	color: #fff;
 }
+
 .textmenu{
 	justify-content: flex-end;
 	align-items: center;
 	padding-left: 680px;
 }
-
-
-
 
 /*First Section*/
 video{
@@ -80,6 +78,7 @@ img.pages {
 	font-size: 1.2em;
 	font-weight: bold;
 }
+
 ul li a{
 	color: white;
 }
@@ -93,6 +92,7 @@ a.bold {
 .box{
 	height: 300px;
 }
+
 .other {
     background-color: #333447;
     text-align: center;
@@ -116,7 +116,7 @@ i.fa {
     padding: 9px;
     margin-bottom: 9px;
 }
- 
+
 hr {
     width: 290px;
     margin: 0 auto;
