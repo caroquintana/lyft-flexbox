@@ -39,7 +39,7 @@
 	padding-left: 634px;
 }
 
-.menunav1{
+.menublanco{
 	border: 1px solid white;
 	padding: 8px 9px;
 	border-radius: 12px;
@@ -50,6 +50,10 @@
 	border: 1px solid #FF00BF;
 	padding: 8px 9px;
 	border-radius: 12px;
+}
+
+.botonoculto{
+	display: none;
 }
 
 a.menunav:hover, .dropdown:hover, .dropbtn:hover{
@@ -70,7 +74,7 @@ nav#menuprincipalg {
 	height: 64px;
 }
 
-.menunavg{
+.menugris{
 	border: 1px solid grey;
 	padding: 8px 9px;
 	border-radius: 12px;
@@ -83,6 +87,7 @@ nav#menuprincipalg {
 	width: 100%;
 	background-color:white;
 }
+
 /*First Section*/
 video{
 	min-height: 100%;
